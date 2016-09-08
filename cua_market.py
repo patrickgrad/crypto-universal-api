@@ -16,7 +16,3 @@ class market:
 
 	def refreshTradeHistory(self):
 		self.HISTORY = self.API.refreshTradeHistory(self.PAIR)
-
-
-
-#np.array([1, 2, 3])
